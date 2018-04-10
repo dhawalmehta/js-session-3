@@ -23,7 +23,7 @@ require("normalize.css");
 const theme = createTheme({
   primary: "white",
   secondary: "#1F2022",
-  tertiary: "#ff60ae",
+  tertiary: "#ffbf60",
   quarternary: "#CECECE"
 }, {
   primary: "Montserrat",
@@ -39,33 +39,32 @@ export default class Presentation extends React.Component {
             Javascript Course
           </Heading>
           <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-            Session 2 - 5rd April, 2018
+            Session 3 - 10th April, 2018
           </Text>
         </Slide>
 
         <Slide transition={["fade"]} bgColor="tertiary">
           <Heading size={6} textColor="primary" caps>Session Target</Heading>
           <Heading size={5} textColor="secondary">Recap</Heading>
-          <Heading size={5} textColor="secondary">Operators</Heading>
-          <Heading size={5} textColor="secondary">Expressions/Statements</Heading>
+          <Heading size={5} textColor="secondary">Functions</Heading>
           <Heading size={5} textColor="secondary">Q&A</Heading>
           <Heading size={5} textColor="secondary">Assignment Questions</Heading>
         </Slide>
 
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={3} textColor="secondary" caps fit>What will be the solution of:</Heading>
+          <Heading size={3} textColor="secondary" caps fit>Recap:</Heading>
           <List>
-            <ListItem>var x = 25 + "apples";</ListItem>
-            <ListItem>var x = "25" + "apples";</ListItem>
-            <ListItem>var x = 25 + 25 + "apples";</ListItem>
-            <ListItem>var x = 25 + "apples" + 25 ;</ListItem>
-            <ListItem>var x = "apples" + 25 + 25;</ListItem>
+            <ListItem>ternary operator</ListItem>
+            <ListItem>difference between switch and if-else</ListItem>
           </List>
         </Slide>
 
 
         <Slide transition={["zoom"]} bgColor="tertiary">
-          <Heading size={3} textColor="primary" caps fit>Operators</Heading>
+          <Heading size={3} textColor="primary" caps fit>Functions</Heading>
+          <Text margin="10px 0 0" textColor="secondary" size={1} fit bold>
+            A JavaScript {"function"} is a block of code designed to perform a particular task.
+          </Text>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
           <List>
