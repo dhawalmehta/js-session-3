@@ -1,1 +1,3 @@
-# Js Sessions 2
+# Js Sessions 3
+
+Functions
