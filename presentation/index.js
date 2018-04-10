@@ -24,7 +24,7 @@ const theme = createTheme({
   primary: "white",
   secondary: "#1F2022",
   tertiary: "#ffbf60",
-  quarternary: "#CECECE"
+  quarternary: "#333"
 }, {
   primary: "Montserrat",
   secondary: "Helvetica"
@@ -68,63 +68,30 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
           <List>
-            <ListItem>Arithmetic operators</ListItem>
-            <ListItem>Comparison operators</ListItem>
-            <ListItem>Logical operators</ListItem>
-            <ListItem>Conditional (ternary) operator</ListItem>
-            <ListItem>Assignment operators</ListItem>
+            <ListItem>Predefined {"functions"} eg: {"alert()"} </ListItem>
+            <ListItem>{"Function"} Definition</ListItem>
+            <ListItem>Calling a {"Function"}</ListItem>
+            <ListItem>{"Function"} Parameters</ListItem>
+            <ListItem>The return Statement</ListItem>
           </List>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={3} textColor="secondary" caps fit>Arithmetic operators:</Heading>
+          <Heading size={3} textColor="secondary" caps fit>{"Function"} Definition:</Heading>
           <List>
-            <ListItem>addition (+), subtraction (-), multiplication (*), division (/)</ListItem>
-            <ListItem>Modulus (Remainder) % </ListItem>
-            <ListItem>Increment (++)</ListItem>
-            <ListItem>Decrement (--)</ListItem>
+            <ListItem>Using {"Function"} keyword</ListItem>
+            <ListItem>{"Function"} {"constructor"}</ListItem>
+            <ListItem>Anonymous functions</ListItem>
+            <ListItem>{"Function"} Expressions</ListItem>
+            <ListItem>Arrow {"function"} expressions</ListItem>
           </List>
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={3} textColor="secondary" caps fit>Comparison Operators:</Heading>
-          <List>
-            <ListItem>== equal to</ListItem>
-            <ListItem>=== equal value and equal type</ListItem>
-            <ListItem>!= not equal</ListItem>
-            <ListItem>Greater than {'>'}, Less than {'<'}, greater than or equal to {'>='}, less than or equal to {'<='}</ListItem>
-          </List>
+          <Heading size={3} textColor="secondary" caps fit>Calling a {"Function"}:</Heading>
+
         </Slide>
         <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={3} textColor="secondary" caps fit>Logical Operator</Heading>
-          <List>
-            <ListItem>&& and</ListItem>
-            <ListItem>|| or</ListItem>
-            <ListItem>!</ListItem>
-          </List>
+          <Heading size={3} textColor="secondary" caps fit>The context {"'this'"} when the {"function"} is invoked</Heading>
         </Slide>
-
-
-        <Slide transition={["zoom"]} bgColor="tertiary">
-          <Heading size={3} textColor="primary" caps fit>Expressions/Statements</Heading>
-          <Text margin="10px 0 0" textColor="secondary" size={1} bold>
-            An expression is any valid unit of code that resolves to a value.
-          </Text>
-          <Text margin="10px 0 0" textColor="secondary" size={1} bold>
-            Statements are "instructions" to be "executed"
-          </Text>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={3} textColor="secondary" caps fit>Conditional Statements:</Heading>
-          <List>
-            <ListItem>The if Statement</ListItem>
-            <ListItem>The else Statement </ListItem>
-            <ListItem>The else if Statement </ListItem>
-            <ListItem>Switch Case</ListItem>
-          </List>
-        </Slide>
-
-
-
-
 
 
         <Slide transition={["zoom"]} bgColor="tertiary">

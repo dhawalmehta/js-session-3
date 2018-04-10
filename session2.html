@@ -19,46 +19,18 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script>
-  var x = 10,y = 3;
-  var z = x % y;
-  var text;
+  //Redeclaring a function
+  function a() { console.log(1); }
+  var a1 = a;
+  a1();
+  function a() { console.log(2); }
+  a();
 
-  var type = typeof(1);
+  //Anonymous self invoking
+  // (function(msg){
+  //   alert(msg);
+  // })('Hey There');
 
-  //  var age = 30;
-  //  if (age < 20) {
-  //   text = "you are too young";
-  // }
-
-
-  // if (false) {
-  //   text = "value is true";
-  // }else{
-  //   alert();
-  // }
-
-  var name = 'DKSFHKASJHDFKG';
-  switch ( name ) {
-    case "dhawal":
-    fullname = name + " mehta";
-    break;
-    case "hiten":
-    case "kanchan":
-    fullname = name + " has submitted really awesome assignment!";
-    break;
-    default:
-    fullname = name + "? kya pata kaun hai yeh? :p";
-  }
-  //
-  // alert("value of x: " + x);
-  // alert("value of x++: " + x++);
-
-  // alert("value of x: " + x);
-  // alert("value of ++x: " + ++x);
-
-  // z = x;
-
-  document.getElementById('result').innerHTML = fullname;
 
   </script>
 </body>
